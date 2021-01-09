@@ -1,0 +1,81 @@
+.head {
+  padding: 0 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.empty {
+  flex-grow: 1;
+}
+.log {
+  flex-grow: 60;
+}
+
+.hamburger i {
+  background-color: #fff;
+  height: 3px;
+  margin-bottom: 4px;
+}
+
+.hamburger {
+  flex-grow: 1;
+}
+
+.hamburger:hover{
+  cursor: pointer;
+
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 4vw;
+}
+
+.responsivePage{
+  display: flex;
+  flex-direction: column;
+  margin: 0 1vh;
+  height: 100vh;
+}
+.close {
+  flex-grow: 1;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh 6vw;
+}
+.ex {
+  height: 40px;
+}
+.ex:hover{
+  cursor: pointer;
+}
+.responsiveContainer{
+  display: flex;
+  flex-direction: column;
+  font-size: 6vh;
+  color: white;
+  flex-grow: 2;
+  justify-content: center;
+}
+
+.socialResponsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.rIcon {
+  width: auto;
+  height: 30px;
+
+}
+.responsiveIcon{
+  padding: 0 10px;
+  cursor: pointer;
+}

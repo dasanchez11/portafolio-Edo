@@ -1,0 +1,61 @@
+.Header {
+  padding: 0 5%;
+  align:flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.imagenedo {
+  width: 20vw;
+  max-width: 150px;
+  height: auto;
+}
+
+.content {
+  font-size: 15px;
+}
+
+.options {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.logoEdo{
+  width: 150px;
+  height: auto;
+}
+
+.social {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.option {
+  margin: 10px 15px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.icon{
+  width: 25px;
+  height: 25px;
+}
+
+.icono{
+  margin: 0px 10px;
+  cursor: pointer;
+}

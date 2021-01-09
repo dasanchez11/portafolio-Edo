@@ -1,0 +1,51 @@
+.responsivePage{
+  display: flex;
+  flex-direction: column;
+  margin: 0 1vh;
+  height: 100vh;
+}
+.close {
+  flex-grow: 1;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh 6vw;
+}
+.ex {
+  height: 40px;
+}
+.ex:hover{
+  cursor: pointer;
+}
+.responsiveContainer{
+  display: flex;
+  flex-direction: column;
+  font-size: 6vh;
+  color: white;
+  flex-grow: 2;
+  justify-content: center;
+}
+
+.socialResponsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.rIcon {
+  width: auto;
+  height: 30px;
+
+}
+.responsiveIcon{
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.responsiveWork, .responsiveContact {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  width: auto;
+}
