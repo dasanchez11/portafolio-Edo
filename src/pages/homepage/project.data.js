@@ -1,7 +1,7 @@
 const project_data = [
   {
     id: 1,
-    title: 'JARDÍN BOTÁNICO DE BOGOTÁ HECHO POR EL NENÉ/ BRANDING',
+    title: 'JARDÍN BOTÁNICO DE BOGOTÁ  /BRANDING',
     year: "2020",
     preview: 'https://pro2-bar-s3-cdn-cf.myportfolio.com/b790fb71-ddf5-412e-b445-35d18636b2ae/195b1fc0-e294-41df-94f5-de09ad2b1f73_rwc_0x5002x1080x608x1080.jpg?h=1ad2aaf611da81ea821260c23d8a9e69',
     routeName: 'JARDIN_BOTANICO',
