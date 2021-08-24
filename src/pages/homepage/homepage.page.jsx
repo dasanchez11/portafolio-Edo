@@ -1,7 +1,7 @@
-import React,{useEffect,useState} from 'react';
+import React from 'react';
 import Header from '../../components/header/header.component';
 import ProjectOverview from '../../components/project-overview/project-overview.component';
-import ProjectData from './project.data';
+// import ProjectData from './project.data';
 import Responsive from '../../components/responsive/responsive.component'
 
 import{connect} from 'react-redux';
@@ -9,12 +9,12 @@ import{connect} from 'react-redux';
 
 
 const HomePage = ({hidden}) => {
-  const[initial,setInitial] = useState([])
+  // const[initial,setInitial] = useState([])
 
-  useEffect(()=>{
-    setInitial(ProjectData)
+  // useEffect(()=>{
+  //   setInitial(ProjectData)
 
-  },[]);
+  // },[]);
 
   return (
   <div className="homepage">

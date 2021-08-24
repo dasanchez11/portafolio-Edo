@@ -15,9 +15,9 @@ const Responsive = ({toggleMenu}) => {
         <Link className="responsiveContact" to="/contact" onClick={toggleMenu}>CONTACTO</Link>
       </div>
       <div className="socialResponsive">
-        <div className="responsiveIcon" onClick={()=> {window.open('https://www.behance.net/Eduardo29')}}><img className="rIcon" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-behance-1.png&r=255&g=255&b=255"/></div>
-        <div className="responsiveIcon" onClick={()=> {window.open('http://linkedin.com/in/eduardo-s%C3%A1nchez-90a451100')}}><img className="rIcon" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-linkedin-1.png&r=255&g=255&b=255"/></div>
-        <div className="responsiveIcon" onClick={()=> {window.open('mailto:eduardosanchezr89@gmail.com')}}><img className="rIcon" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-email-3.png&r=255&g=255&b=255"/></div>
+        <div className="responsiveIcon" onClick={()=> {window.open('https://www.behance.net/Eduardo29')}}><img className="rIcon" alt='icon-responsive-1' src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-behance-1.png&r=255&g=255&b=255"/></div>
+        <div className="responsiveIcon" onClick={()=> {window.open('http://linkedin.com/in/eduardo-s%C3%A1nchez-90a451100')}}><img className="rIcon" alt='icon-responsive-2' src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-linkedin-1.png&r=255&g=255&b=255"/></div>
+        <div className="responsiveIcon" onClick={()=> {window.open('mailto:eduardosanchezr89@gmail.com')}}><img className="rIcon" alt='icon-responsive-3' src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-email-3.png&r=255&g=255&b=255"/></div>
       </div>
   </div>
   )

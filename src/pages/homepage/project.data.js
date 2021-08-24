@@ -50,6 +50,7 @@ const project_data = [
     year: "2019",
     preview: "https://pro2-bar-s3-cdn-cf3.myportfolio.com/b790fb71-ddf5-412e-b445-35d18636b2ae/eb8756a8-2c16-49b0-a2a9-077c860e8b40_rwc_239x105x2104x1186x2104.jpg?h=7999dc4622f7ab84fd1fd6deb02f63dc",
     routeName: 'HOPS_LATAM',
+    posts:["https://mir-s3-cdn-cf.behance.net/project_modules/fs/72ba8583158861.5d340486a61db.jpg"],
     ProjectImage: ""
   },
   {
@@ -58,6 +59,7 @@ const project_data = [
     year: "2019",
     preview: "https://pro2-bar-s3-cdn-cf1.myportfolio.com/b790fb71-ddf5-412e-b445-35d18636b2ae/cbbaa154-051c-4e08-ab7a-736f6dd60a5a_rwc_0x429x2553x1438x2553.jpg?h=7a8a21468111009b8ff6d8a2eae426e5",
     routeName: 'Dental_Aesthetic',
+    posts: ["https://mir-s3-cdn-cf.behance.net/project_modules/fs/92893277365997.5c8609979d89f.jpg"],
     ProjectImage: ""
   },
   {
@@ -66,6 +68,7 @@ const project_data = [
     year: "2019",
     preview: "https://pro2-bar-s3-cdn-cf5.myportfolio.com/b790fb71-ddf5-412e-b445-35d18636b2ae/678a2d6a-56a7-4450-b91f-11bb418c133f_rwc_382x5691x1791x1009x1791.jpg?h=c5bf35853ce0e94fafbb3b4a287fb096",
     routeName: 'Lucena_Comercializadora',
+    posts:['https://mir-s3-cdn-cf.behance.net/project_modules/fs/4021f576842479.5c75cf53e2d11.jpg'],
     ProjectImage: ""
   },
   {
@@ -74,6 +77,7 @@ const project_data = [
     year: "2019",
     preview: "https://pro2-bar-s3-cdn-cf.myportfolio.com/b790fb71-ddf5-412e-b445-35d18636b2ae/192fec49-75b4-48fd-83ac-808e3549ade8_rwc_0x5205x1400x789x1400.jpg?h=093a9f0612684f3ef66d07d9062dbe6d",
     routeName: 'Nitro_Siete',
+    posts: ['https://mir-s3-cdn-cf.behance.net/project_modules/fs/4b9ac976542755.5c6f95c565760.jpg'],
     ProjectImage: ""
   },
   {
@@ -82,16 +86,17 @@ const project_data = [
     year: "2019",
     preview: "https://pro2-bar-s3-cdn-cf.myportfolio.com/b790fb71-ddf5-412e-b445-35d18636b2ae/8707ceb1-7ad6-4f24-b530-72608f950bfa_rwc_98x2187x1205x679x1205.jpg?h=4e487fb88d3b74d38b3c3cbb52ef323a",
     routeName: 'Revista_Vive',
-    ProjectImage: ""
-  },
-  {
-    id: 11,
-    title: 'Proyecto Unidad Avanzada',
-    year: "2015",
-    preview: "https://pro2-bar-s3-cdn-cf2.myportfolio.com/b790fb71-ddf5-412e-b445-35d18636b2ae/35496e77-addd-4676-852b-b2a33c5187b1_rwc_0x62x403x227x403.jpg?h=677af3449b843690c845e7604d231fc8",
-    routeName: 'Proyecto_Unidad',
+    posts:['https://mir-s3-cdn-cf.behance.net/project_modules/fs/70567276053221.5c607221a2418.jpg'],
     ProjectImage: ""
   }
+  // {
+  //   id: 11,
+  //   title: 'Proyecto Unidad Avanzada',
+  //   year: "2015",
+  //   preview: "https://pro2-bar-s3-cdn-cf2.myportfolio.com/b790fb71-ddf5-412e-b445-35d18636b2ae/35496e77-addd-4676-852b-b2a33c5187b1_rwc_0x62x403x227x403.jpg?h=677af3449b843690c845e7604d231fc8",
+  //   routeName: 'Proyecto_Unidad',
+  //   ProjectImage: ""
+  // }
 ]
 
 
