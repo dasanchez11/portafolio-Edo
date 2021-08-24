@@ -1,10 +1,13 @@
 import React from 'react';
 import './project-specific.styles.css';
-import {withRouter} from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
-const ProjectSpecific = ({location}) => {
-  console.log(location)
-  const {title,posts} = location.state
+const ProjectSpecific = () => {
+  const selector = useSelector(state => state.projectState)
+  
+  const {title,posts} = selector;
+  
+ 
   return (
     <div className="specificContainer">
       <div className="titulo">
@@ -22,4 +25,4 @@ const ProjectSpecific = ({location}) => {
   )
 }
 
-export default withRouter(ProjectSpecific);
+export default ProjectSpecific;
